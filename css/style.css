@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(23, 23, 96, 0.61), rgba(0, 0, 0, 0.533)), url('../images/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.3rem;
+    color: antiquewhite;
+    background-color: darkblue;
+}
+
+.container h3 {
+    margin: 1rem;
+    color: antiquewhite;
+    text-transform: capitalize;
+}
+
+.container p {
+    color: antiquewhite;
+    font-size: 2rem;
+}
